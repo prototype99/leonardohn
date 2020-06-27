@@ -170,7 +170,8 @@ inherit cargo
 
 MY_PV="${PV:0:4}-${PV:4:2}-${PV:6:2}"
 KEYWORDS="~amd64"
-SRC_URI="https://github.com/rust-analyzer/rust-analyzer/archive/${MY_PV}.tar.gz -> ${P}.tar.gz $(cargo_crate_uris ${CRATES})"
+SRC_URI="https://github.com/rust-analyzer/rust-analyzer/archive/${MY_PV}.tar.gz -> ${P}.tar.gz
+	$(cargo_crate_uris ${CRATES})"
 
 DESCRIPTION="An experimental Rust compiler front-end for IDEs"
 HOMEPAGE="https://rust-analyzer.github.io"
