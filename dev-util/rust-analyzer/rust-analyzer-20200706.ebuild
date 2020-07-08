@@ -11,7 +11,6 @@ ansi_term-0.11.0
 anyhow-1.0.31
 anymap-0.12.1
 arrayvec-0.5.1
-atty-0.2.14
 autocfg-1.0.0
 backtrace-0.3.49
 base64-0.12.3
@@ -19,17 +18,15 @@ bitflags-1.2.1
 bstr-0.2.13
 byteorder-1.3.4
 cargo_metadata-0.10.0
-cc-1.0.55
+cc-1.0.57
 cfg-if-0.1.10
 chalk-derive-0.15.0
 chalk-engine-0.15.0
 chalk-ir-0.15.0
 chalk-solve-0.15.0
-chrono-0.4.11
-clicolors-control-1.0.1
+chrono-0.4.12
 cloudabi-0.1.0
-console-0.10.3
-crossbeam-0.7.3
+console-0.11.3
 crossbeam-channel-0.4.2
 crossbeam-deque-0.7.3
 crossbeam-epoch-0.8.2
@@ -62,7 +59,7 @@ idna-0.2.0
 indexmap-1.4.0
 inotify-0.8.3
 inotify-sys-0.1.3
-insta-0.16.0
+insta-0.16.1
 instant-0.1.5
 iovec-0.1.4
 itertools-0.9.0
@@ -86,7 +83,7 @@ matches-0.1.8
 maybe-uninit-2.0.0
 memchr-2.3.3
 memmap-0.7.0
-memoffset-0.5.4
+memoffset-0.5.5
 miniz_oxide-0.3.7
 mio-0.6.22
 mio-extras-2.0.6
@@ -128,7 +125,7 @@ rustc-ap-rustc_lexer-666.0.0
 rustc-demangle-0.1.16
 rustc-hash-1.1.0
 ryu-1.0.5
-salsa-0.14.2
+salsa-0.14.4
 salsa-macros-0.14.1
 same-file-1.0.6
 scoped-tls-1.0.0
@@ -139,7 +136,7 @@ semver-0.9.0
 semver-parser-0.7.0
 serde-1.0.114
 serde_derive-1.0.114
-serde_json-1.0.55
+serde_json-1.0.56
 serde_repr-0.1.6
 serde_yaml-0.8.13
 sharded-slab-0.0.9
@@ -150,7 +147,7 @@ superslice-1.0.0
 syn-1.0.33
 synstructure-0.12.4
 tempfile-3.1.0
-terminal_size-0.1.12
+terminal_size-0.1.13
 termios-0.3.2
 text-size-1.0.0
 thin-dst-1.1.0
@@ -163,7 +160,7 @@ tracing-attributes-0.1.8
 tracing-core-0.1.10
 tracing-log-0.1.1
 tracing-serde-0.1.1
-tracing-subscriber-0.2.6
+tracing-subscriber-0.2.7
 unicode-bidi-0.3.4
 unicode-normalization-0.1.13
 unicode-segmentation-1.6.0
