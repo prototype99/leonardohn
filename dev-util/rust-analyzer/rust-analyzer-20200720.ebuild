@@ -5,7 +5,7 @@ EAPI=7
 
 CRATES="
 addr2line-0.13.0
-adler-0.2.2
+adler-0.2.3
 aho-corasick-0.7.13
 ansi_term-0.11.0
 ansi_term-0.12.1
@@ -17,7 +17,6 @@ autocfg-1.0.0
 backtrace-0.3.50
 base64-0.12.3
 bitflags-1.2.1
-bstr-0.2.13
 byteorder-1.3.4
 cargo_metadata-0.10.0
 cc-1.0.58
@@ -28,6 +27,7 @@ chalk-recursive-0.17.0
 chalk-solve-0.17.0
 chrono-0.4.13
 cloudabi-0.1.0
+cmake-0.1.44
 console-0.11.3
 crc32fast-1.2.0
 crossbeam-channel-0.4.2
@@ -45,16 +45,14 @@ env_logger-0.7.1
 filetime-0.2.10
 fixedbitset-0.2.0
 flate2-1.0.16
-fnv-1.0.7
-fs_extra-1.1.0
 fsevent-2.0.2
 fsevent-sys-3.0.2
+fs_extra-1.1.0
 fst-0.4.4
 fuchsia-zircon-0.3.3
 fuchsia-zircon-sys-0.3.3
 getrandom-0.1.14
 gimli-0.22.0
-globset-0.4.5
 goblin-0.2.3
 heck-0.3.1
 hermit-abi-0.1.15
@@ -68,35 +66,37 @@ instant-0.1.6
 iovec-0.1.4
 itertools-0.9.0
 itoa-0.4.6
+jemallocator-0.3.2
 jemalloc-ctl-0.3.3
 jemalloc-sys-0.3.2
-jemallocator-0.3.2
 jod-thread-0.1.2
 kernel32-sys-0.2.2
-lazy_static-1.4.0
 lazycell-1.2.1
+lazy_static-1.4.0
 libc-0.2.72
 libloading-0.6.2
+libmimalloc-sys-0.1.15
 linked-hash-map-0.5.3
 lock_api-0.4.1
-log-0.4.8
+log-0.4.11
 lsp-server-0.3.3
-lsp-types-0.76.0
+lsp-types-0.77.0
 matchers-0.0.1
 matches-0.1.8
 maybe-uninit-2.0.0
 memchr-2.3.3
 memmap-0.7.0
 memoffset-0.5.5
+mimalloc-0.1.19
 miniz_oxide-0.4.0
 mio-0.6.22
 mio-extras-2.0.6
 miow-0.2.1
 net2-0.2.34
 notify-5.0.0-pre.3
+num_cpus-1.13.0
 num-integer-0.1.43
 num-traits-0.2.12
-num_cpus-1.13.0
 object-0.20.0
 once_cell-1.4.0
 parking_lot-0.11.0
@@ -108,9 +108,8 @@ petgraph-0.5.1
 pico-args-0.3.3
 plain-0.2.3
 ppv-lite86-0.2.8
-proc-macro-hack-0.5.16
 proc-macro2-1.0.18
-quanta-0.3.1
+proc-macro-hack-0.5.16
 quote-1.0.7
 rand-0.7.3
 rand_chacha-0.2.2
@@ -148,7 +147,7 @@ slab-0.4.2
 smallvec-1.4.1
 smol_str-0.1.16
 superslice-1.0.0
-syn-1.0.33
+syn-1.0.34
 synstructure-0.12.4
 tempfile-3.1.0
 termcolor-1.1.0
@@ -166,7 +165,7 @@ tracing-core-0.1.11
 tracing-log-0.1.1
 tracing-serde-0.1.1
 tracing-subscriber-0.2.7
-tracing-tree-0.1.3
+tracing-tree-0.1.4
 unicode-bidi-0.3.4
 unicode-normalization-0.1.13
 unicode-segmentation-1.6.0
@@ -197,8 +196,8 @@ RESTRICT="mirror"
 SLOT="0"
 IUSE=""
 
-RDEPEND="dev-lang/rust[rls]"
-DEPEND="${RDEPEND}"
+DEPEND="dev-lang/rust[rls]"
+RDEPEND="${DEPEND}"
 
 CARGO_INSTALL_PATH="${S}/crates/rust-analyzer"
 
