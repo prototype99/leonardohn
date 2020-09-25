@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>leonardohn@null.net</email>
+		<name>Leonardo Neumann</name>
+	</maintainer>
+	<longdescription lang="en">
+		Lua Language Server coded by Lua
+	</longdescription>
+	<upstream>
+		<remote-id type="github">sumneko/lua-language-server</remote-id>
+	</upstream>
+</pkgmetadata>
