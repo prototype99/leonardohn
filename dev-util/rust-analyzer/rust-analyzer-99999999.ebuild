@@ -184,8 +184,8 @@ fi
 DESCRIPTION="An experimental Rust compiler front-end for IDEs"
 HOMEPAGE="https://rust-analyzer.github.io"
 LICENSE="
-0BSD Apache-2.0 Apache-2.0 WITH LLVM-exception BSD-2-Clause
-BSD-3-Clause BSL-1.0 CC0-1.0 ISC MIT Unlicense Zlib
+BSD Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD-2
+Boost-1.0 CC0-1.0 ISC MIT Unlicense ZLIB
 "
 
 RESTRICT="mirror"
