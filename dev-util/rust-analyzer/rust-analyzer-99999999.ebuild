@@ -195,8 +195,6 @@ IUSE=""
 DEPEND=">=dev-lang/rust-1.46.0[rls]"
 RDEPEND="${DEPEND}"
 
-CARGO_INSTALL_PATH="${S}/crates/rust-analyzer"
-
 src_unpack() {
 	if [[ "${PV}" == *9999* ]]; then
 		git-r3_src_unpack
@@ -205,4 +203,8 @@ src_unpack() {
 		cargo_src_unpack
 		mv -T "${PN}-${MY_PV}" "${P}" || die
 	fi
+}
+
+src_install() {
+	cargo_src_install --path "./crates/rust-analyzer"
 }
