@@ -16,7 +16,7 @@ backtrace-0.3.53
 base64-0.12.3
 bitflags-1.2.1
 byteorder-1.3.4
-cargo_metadata-0.11.3
+cargo_metadata-0.11.4
 cc-1.0.61
 cfg-if-0.1.10
 cfg-if-1.0.0
@@ -27,21 +27,23 @@ chalk-solve-0.33.0
 chrono-0.4.19
 cloudabi-0.1.0
 cmake-0.1.44
+const_fn-0.4.2
 crc32fast-1.2.0
 crossbeam-channel-0.4.4
+crossbeam-channel-0.5.0
 crossbeam-deque-0.7.3
 crossbeam-epoch-0.8.2
 crossbeam-utils-0.7.2
+crossbeam-utils-0.8.0
 difference-2.0.0
 drop_bomb-0.1.5
 either-1.6.1
 ena-0.14.0
-env_logger-0.7.1
+env_logger-0.8.1
 expect-test-1.0.1
 filetime-0.2.12
 fixedbitset-0.2.0
 flate2-1.0.18
-fs-err-2.5.0
 fsevent-2.0.2
 fsevent-sys-3.0.2
 fst-0.4.4
@@ -70,7 +72,7 @@ libloading-0.6.4
 libmimalloc-sys-0.1.18
 lock_api-0.4.1
 log-0.4.11
-lsp-server-0.3.4
+lsp-server-0.4.1
 lsp-types-0.82.0
 matchers-0.0.1
 matches-0.1.8
@@ -101,22 +103,22 @@ pico-args-0.3.4
 pin-project-lite-0.1.10
 plain-0.2.3
 proc-macro2-1.0.24
-pulldown-cmark-0.7.2
-pulldown-cmark-to-cmark-5.0.0
+pulldown-cmark-0.8.0
+pulldown-cmark-to-cmark-6.0.0
 quote-1.0.7
 rayon-1.4.1
 rayon-core-1.8.1
 redox_syscall-0.1.57
-regex-1.3.9
+regex-1.4.1
 regex-automata-0.1.9
-regex-syntax-0.6.18
+regex-syntax-0.6.20
 rowan-0.10.0
-rustc-ap-rustc_lexer-682.0.0
+rustc-ap-rustc_lexer-683.0.0
 rustc-demangle-0.1.17
 rustc-hash-1.1.0
 ryu-1.0.5
-salsa-0.15.2
-salsa-macros-0.15.2
+salsa-0.16.0
+salsa-macros-0.16.0
 same-file-1.0.6
 scoped-tls-1.0.0
 scopeguard-1.1.0
@@ -124,15 +126,15 @@ scroll-0.10.2
 scroll_derive-0.10.3
 semver-0.10.0
 semver-parser-0.7.0
-serde-1.0.116
-serde_derive-1.0.116
-serde_json-1.0.58
+serde-1.0.117
+serde_derive-1.0.117
+serde_json-1.0.59
 serde_repr-0.1.6
 sharded-slab-0.0.9
 slab-0.4.2
 smallvec-1.4.2
 smol_str-0.1.17
-syn-1.0.44
+syn-1.0.45
 synstructure-0.12.4
 termcolor-1.1.0
 text-size-1.0.0
@@ -166,6 +168,8 @@ winapi-util-0.1.5
 winapi-x86_64-pc-windows-gnu-0.4.0
 write-json-0.1.2
 ws2_32-sys-0.2.1
+xshell-0.1.6
+xshell-macros-0.1.6
 "
 
 inherit cargo
@@ -187,7 +191,7 @@ DESCRIPTION="An experimental Rust compiler front-end for IDEs"
 HOMEPAGE="https://rust-analyzer.github.io"
 LICENSE="
 BSD Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD-2
-Boost-1.0 CC0-1.0 ISC MIT Unlicense ZLIB
+BSD-3 Boost-1.0 CC0-1.0 ISC MIT Unlicense ZLIB
 "
 
 RESTRICT="mirror"
